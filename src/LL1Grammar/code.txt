@@ -1,0 +1,4 @@
+int id := 1 ;
+print id ;
+while ( id == 3 ) { print id ; } ;
+if ( id == 2 ) { print id ; } endif ;

@@ -1,0 +1,10 @@
+program -> stmt
+stmt -> stmt statement ; | statement ;
+statement -> if-stmt | repeat-stmt | assign-stmt | out-stmt
+if-stmt -> if ( exp ) { stmt } endif | if ( exp ) { stmt } else { stmt } endif
+repeat-stmt -> while ( exp ) { stmt }
+assign-stmt -> idtype id := num
+out-stmt -> print id
+exp -> id == num
+num -> 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
+idtype -> int | char | double

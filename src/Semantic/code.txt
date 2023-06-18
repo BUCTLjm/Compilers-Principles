@@ -1,0 +1,7 @@
+int a
+b = a + 2
+int b
+int c
+a = 8 + ( 9 - 3 * 4 )
+b = a + 2
+c = b - a
