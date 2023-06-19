@@ -12,8 +12,8 @@
 #include "fstream"
 #include "algorithm"
 #include "iomanip"
-#include "../LL1Grammar/ll1.h"
-#include "../LL1Grammar/ll1.cpp"
+#include "ll1.h"
+#include "ll1.cpp"
 
 using namespace std;
 
